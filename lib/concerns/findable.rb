@@ -1,8 +1,12 @@
 module Findable
   module FindSong
-    def self.find_by_name(name)
+    def Song.find_by_name(name)
      @@songs.detect{|a| a.name == name}
     end
   end 
+  
+  module FindArtist
+    
+  end
   
 end 
