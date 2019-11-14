@@ -19,9 +19,8 @@ class Artist
     @@artists
   end
 
-  def self.reset_all
-    self.all.clear
-  end
+  #  self.all.clear
+ # end
 
   #  self.all.count
   #  self.all.count
