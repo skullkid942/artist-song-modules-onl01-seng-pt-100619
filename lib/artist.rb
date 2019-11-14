@@ -19,6 +19,7 @@ class Artist
     @@artists
   end
 
+    def 
   #  self.all.clear
  # end
 
